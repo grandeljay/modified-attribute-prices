@@ -25,6 +25,10 @@ if (!empty($products_options['attributes_model'])) {
     );
     $products_data       = \xtc_db_fetch_array($products_data_query);
 
+    if (!isset($products_data['products_id'])) {
+        return;
+    }
+
     $xtc_price      = new \xtcPrice($currencies_array[0]['id'], $customer_status['customers_status']);
     $products_price = $xtc_price->xtcGetPrice($products_data['products_id'], false);
 
