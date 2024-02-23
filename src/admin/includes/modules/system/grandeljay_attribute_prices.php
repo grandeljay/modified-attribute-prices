@@ -15,7 +15,7 @@ use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
 class grandeljay_attribute_prices extends StdModule
 {
-    public const VERSION = '0.2.0';
+    public const VERSION = '0.2.1';
 
     public function __construct()
     {
