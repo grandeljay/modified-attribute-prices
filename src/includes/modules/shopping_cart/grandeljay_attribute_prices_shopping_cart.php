@@ -79,7 +79,7 @@ class grandeljay_attribute_prices_shopping_cart extends StdModule
         /**
          * Get personal offer
          */
-        $customers_status_id = $customer_status['customers_status'] ?? DEFAULT_CUSTOMERS_STATUS_ID_GUEST;
+        $customers_status_id = $_SESSION['customers_status']['customers_status_id'] ?? DEFAULT_CUSTOMERS_STATUS_ID_GUEST;
 
         $personal_offer_sql   = sprintf(
             'SELECT *
