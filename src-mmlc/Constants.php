@@ -11,7 +11,5 @@ namespace Grandeljay\AttributePrices;
 
 class Constants
 {
-    public const MODULE_NAME = 'MODULE_SYSTEM_GRANDELJAY_ATTRIBUTE_PRICES_SYSTEM';
-
-    public const TABLE_ATTRIBUTE_PRICES = 'grandeljay_attribute_prices';
+    public const MODULE_NAME = 'MODULE_SHOPPING_CART_GRANDELJAY_ATTRIBUTE_PRICES_SHOPPING_CART';
 }
